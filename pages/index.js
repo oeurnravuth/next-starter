@@ -5,7 +5,9 @@ export default function Home() {
     <div className='container'>
       <Head>
         <link rel='icon' href='/favicon.ico' />
-        <title>html - Telegram and FB link Preview - Stack Overflow</title>
+        <title>
+          update html - Telegram and FB link Preview - Stack Overflow
+        </title>
         <meta prefix='og: http://ogp.me/ns#' />
         <meta property='og:type' content='website' />
         <meta property='og:url' content='http://128.199.103.234:3000/testing' />
