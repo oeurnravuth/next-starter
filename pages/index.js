@@ -4,23 +4,9 @@ export default function Home() {
   return (
     <div className='container'>
       <Head>
-        <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
-
         <title>html - Telegram and FB link Preview - Stack Overflow</title>
         <meta prefix='og: http://ogp.me/ns#' />
-        {/* <link
-          rel='shortcut icon'
-          href='https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196'
-        />
-        <link
-          rel='apple-touch-icon'
-          href='https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a'
-        />
-        <link
-          rel='image_src'
-          href='https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a'
-        /> */}
         <meta property='og:type' content='website' />
         <meta property='og:url' content='http://128.199.103.234:3000/testing' />
         <meta property='og:site_name' content='Stack Overflow' />
@@ -28,12 +14,11 @@ export default function Home() {
           property='og:image'
           content='https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded'
         />
-        
       </Head>
 
       <main>
         <h1 className='title'>
-          Welcome to <a href='https://nextjs.org'>Next.js!</a>
+          Welcome to <a href='https://nextjs.org'>Next.js! update</a>
         </h1>
 
         <p className='description'>
