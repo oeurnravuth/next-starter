@@ -1,44 +1,67 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className='container'>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
+
+        <title>html - Telegram and FB link Preview - Stack Overflow</title>
+        <meta prefix='og: http://ogp.me/ns#' />
+        {/* <link
+          rel='shortcut icon'
+          href='https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196'
+        />
+        <link
+          rel='apple-touch-icon'
+          href='https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a'
+        />
+        <link
+          rel='image_src'
+          href='https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a'
+        /> */}
+        <meta property='og:type' content='website' />
+        <meta property='og:url' content='http://128.199.103.234:3000/testing' />
+        <meta property='og:site_name' content='Stack Overflow' />
+        <meta
+          property='og:image'
+          content='https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded'
+        />
+        
       </Head>
 
       <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <h1 className='title'>
+          Welcome to <a href='https://nextjs.org'>Next.js!</a>
         </h1>
 
-        <p className="description">
+        <p className='description'>
           Get started by editing <code>pages/index.js</code>
         </p>
 
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
+        <div className='grid'>
+          <a href='https://nextjs.org/docs' className='card'>
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
+          <a href='https://nextjs.org/learn' className='card'>
             <h3>Learn &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
+            href='https://github.com/vercel/next.js/tree/master/examples'
+            className='card'
           >
             <h3>Examples &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
+            href='https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
+            className='card'
           >
             <h3>Deploy &rarr;</h3>
             <p>
@@ -50,12 +73,11 @@ export default function Home() {
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
+          target='_blank'
+          rel='noopener noreferrer'
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          Powered by <img src='/vercel.svg' alt='Vercel' className='logo' />
         </a>
       </footer>
 
@@ -205,5 +227,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
